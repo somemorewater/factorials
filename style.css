@@ -1,1 +1,62 @@
-.
+
+
+
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
+
+header h1 {
+    font-size: 44px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    margin-left: 70px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+section h2 {
+    text-align: center;
+    color: #333;
+}
+section form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+section label {
+    font-weight: bold;
+}
+section input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+section button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+section button:hover {
+    background-color: #1a1919;
+}
+section #factorial-result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    text-align: center;
+    color: #333;
+}
