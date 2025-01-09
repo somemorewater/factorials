@@ -54,9 +54,10 @@ header h1 {
 .factorials button:hover {
     background-color: #1a1919;
 }
-.factorials #factorial-result {
+.factorials #factorialResult {
     margin-top: 20px;
-    font-size: 1.2em;
+    font-size: 1.8em;
+    font-weight: bold;
     text-align: center;
     color: #333;
 }
