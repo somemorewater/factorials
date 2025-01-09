@@ -17,7 +17,7 @@ header h1 {
 }
 
 
-section {
+.factorials {
     background-color: #f9f9f9;
     padding: 20px;
     border-radius: 8px;
@@ -26,24 +26,24 @@ section {
     margin-top: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-section h2 {
+.factorials h2 {
     text-align: center;
     color: #333;
 }
-section form {
+.factorials form {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-section label {
+.factorials label {
     font-weight: bold;
 }
-section input[type="number"] {
+.factorials input[type="number"] {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
-section button {
+.factorials button {
     padding: 10px;
     background-color: #333;
     color: white;
@@ -51,10 +51,10 @@ section button {
     border-radius: 4px;
     cursor: pointer;
 }
-section button:hover {
+.factorials button:hover {
     background-color: #1a1919;
 }
-section #factorial-result {
+.factorials #factorial-result {
     margin-top: 20px;
     font-size: 1.2em;
     text-align: center;
