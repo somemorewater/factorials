@@ -78,7 +78,6 @@ main section {
     background-color: #f9f9f9;
     padding: 20px;
     border-radius: 8px;
-    margin-right: 70px;
     margin-top: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -125,3 +124,52 @@ main section {
     color: #333;
 }
 
+.combination {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.combination h2 {
+    text-align: center;
+    color: #333;
+}
+
+.combination form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.combination label {
+    font-weight: bold;
+}
+
+.combination input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.combination button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.combination button:hover {
+    background-color: #1a1919;
+}
+
+.combination #combinationResult {
+    margin-top: 20px;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+}
