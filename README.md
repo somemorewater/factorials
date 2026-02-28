@@ -1,1 +1,1 @@
-"# factorials" 
+# Factorials, Permutations and Combinations
